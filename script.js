@@ -29,6 +29,7 @@ function paintSquare() {
   c.font = "48px Arial";
   c.fillStyle = "Yellow";
   c.textAlign = "center";
+  c.fillText("Canvas Rect", canvas.width / 2, canvas.height / 2);
 }
 
 function paintCircle() {
@@ -62,32 +63,6 @@ function paintRing() {
   }
 }
 
-function paintManyRings() {
-  const n = 30; // Antal prickar som varje ring består av
-  const dotRadius = 12; // Storleken på prickarna
-  const dr = 50; // Avståndet mellan ringarna
-  const r0 = 15; // Den innersta ringens radie
-  const numRings = 10;
-  const colors = ["yellow", "blue", "red"];
-  let r = r0;
-  let x;
-  let y;
-  for (let i = 1; i <= numRings; i++) {
-    // Loop som ritar respektve ring
-    for (let j = 1; j <= n; j++) {
-      // Loop som ritar prickarna
-      r = r0 + dr * i; // Ringarnas radie ökar
-      x = midX + r * Math.cos((2 * Math.PI * j) / n); // Läget i x-led för en prick
-      y = midY + r * Math.sin((2 * Math.PI * j) / n); // Läget i y-led för en prick
-      c.beginPath(); // En prick är en liten cirkel
-      c.arc(x, y, dotRadius, 0, 2 * Math.PI, true);
-      c.fillStyle = colors[i % 3]; // Färgen bestäms
-      c.closePath();
-      c.fill(); // Pricken ritas ut
-    }
-  }
-}
-
 function paintSimpleSquarePattern() {
   const s = 40; // Kvadratens sida
   const space = 3 * s;
@@ -105,8 +80,7 @@ function paintSimpleSquarePattern() {
   }
 }
 
-// paintSquare();
+paintSquare();
 // paintCircle();
 // paintSimpleSquarePattern();
 // paintRing();
-paintManyRings();

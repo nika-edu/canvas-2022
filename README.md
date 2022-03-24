@@ -15,4 +15,4 @@ JavaScript-filen ovan demonstrerar några grundläggande figurer och hur det gå
 4.  Funktionen `paintRing` ritar punkter som ligger på en cirkel. I originalutförandet så är dessa "punkter" 12 st. cirkelskivor. Pröva att ändra antalet på dessa punkter så att de fortfarande ligger symmetriskt. Pröva också att skapa flera cirklar med olika radie och färg, jag tänker mig något i stil med nedanstående bild.
     ![concentric circles](img/concentricCircles.png)
 
-            (Behöver du hjälp? Tjuvkika på [lösningsförslaget](https://gist.github.com/nika-edu/70b5ea2ed898c06b43247039737a0cd8))
+    (Behöver du hjälp? Tjuvkika på [lösningsförslaget](https://gist.github.com/nika-edu/70b5ea2ed898c06b43247039737a0cd8).)
