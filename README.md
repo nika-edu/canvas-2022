@@ -16,3 +16,5 @@ JavaScript-filen ovan demonstrerar några grundläggande figurer och hur det gå
     ![concentric circles](img/concentricCircles.png)
 
     (Behöver du hjälp? Tjuvkika på [lösningsförslaget](https://gist.github.com/nika-edu/70b5ea2ed898c06b43247039737a0cd8).)
+
+[Här finns även en Canvas-referens med fler metoder](https://www.w3schools.com/tags/ref_canvas.asp)
