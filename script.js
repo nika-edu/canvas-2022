@@ -29,7 +29,7 @@ function paintSquare() {
   c.font = "48px Arial";
   c.fillStyle = "Yellow";
   c.textAlign = "center";
-  c.fillText("Canvas Rect", canvas.width / 2, canvas.height / 2);
+  c.fillText("Canvas Rect", midX, midY);
 }
 
 function paintCircle() {
